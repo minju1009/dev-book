@@ -34,7 +34,7 @@
               "type": "markdown",
               "state": {
                 "file": "02. 실행 컨테스트.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -186,8 +186,9 @@
   },
   "active": "95cf710e90d0d991",
   "lastOpenFiles": [
-    "01. 데이터 타입.md",
+    "Pasted image 20230208005643.png",
     "02. 실행 컨테스트.md",
+    "01. 데이터 타입.md",
     "Untitled.md"
   ]
 }
