@@ -1,74 +1,112 @@
 {
   "main": {
-    "id": "a6275c7786f6e3b6",
+    "id": "3f85147f15595f14",
     "type": "split",
     "children": [
       {
-        "id": "ea772a219e33adda",
+        "id": "f640c5dd755c1bab",
         "type": "tabs",
         "children": [
           {
-            "id": "61bb431bbbae867d",
+            "id": "19705e4057807d0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01. 데이터 타입.md",
+                "file": "모두의 네트워크/1장 네트워크 첫걸음.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "79f9b3cbfe264bfe",
+            "id": "44607cef22a9535d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "클래스와 생성자 함수의 차이.md",
+                "file": "모두의 네트워크/1장 네트워크 첫걸음.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6e4d58f47ca45529",
+            "id": "9da5685c2eec125e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05. 클로저.md",
+                "file": "모두의 네트워크/5장 네트워크 계층 (OSI 3계층).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bfd05eea6da48c29",
+            "id": "3a2e8ece9b3a608c",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.1.16"
+                "file": "모두의 네트워크/6장 전송 계층 (OSI 4계층).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f91c3f12cc64ee8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "모두의 네트워크/6장 전송 계층 (OSI 4계층).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "16f47c8cb1a26867",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "모두의 네트워크/7장 응용 계층 (OSI 7계층).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e32b8a84452e3edc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "모두의 네트워크/8장 네트워크의 전체 흐름 살펴보기.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "33f59f3c4629fa3e",
+    "id": "5de29fd8e813d406",
     "type": "split",
     "children": [
       {
-        "id": "56454890c59b2b17",
+        "id": "1dbae46149bc8d79",
         "type": "tabs",
         "children": [
           {
-            "id": "a7676cf2b9582445",
+            "id": "b774e9e93363db6d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -78,7 +116,7 @@
             }
           },
           {
-            "id": "fb0f2a833c5f4c45",
+            "id": "a8c119d6dcce9194",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -93,7 +131,7 @@
             }
           },
           {
-            "id": "780a6212ad4c96da",
+            "id": "355c20cb9be19432",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -104,23 +142,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "411a91184d73f3e9",
+    "id": "14cb23837bdaaee3",
     "type": "split",
     "children": [
       {
-        "id": "ddeb6285c108e3fb",
+        "id": "ead1c3cad465cd3c",
         "type": "tabs",
         "children": [
           {
-            "id": "843cdd74a1973d80",
+            "id": "bb61b5cec408a9b9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01. 데이터 타입.md",
+                "file": "모두의 네트워크/8장 네트워크의 전체 흐름 살펴보기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,19 +170,19 @@
             }
           },
           {
-            "id": "4380141e8ef8bbdb",
+            "id": "32d0836b6fa29ba6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01. 데이터 타입.md",
+                "file": "모두의 네트워크/8장 네트워크의 전체 흐름 살펴보기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "1dcad9703a353081",
+            "id": "f47149547d4c814d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -155,62 +193,41 @@
             }
           },
           {
-            "id": "01bcf45e36360854",
+            "id": "4aadb3a2ef5bb4df",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "01. 데이터 타입.md"
+                "file": "모두의 네트워크/8장 네트워크의 전체 흐름 살펴보기.md"
               }
             }
-          },
-          {
-            "id": "2811a64b3bfdce1f",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "329fda71a5c15e9c",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:새 캔버스 만들기": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a7676cf2b9582445",
+  "active": "e32b8a84452e3edc",
   "lastOpenFiles": [
-    "무제 폴더",
-    "심볼.md",
-    "이터레이션.md",
-    "자바스크립트 배열을 왜 객체라고 하는걸까.md",
-    "클래스와 생성자 함수의 차이.md",
-    "표현식과 문, 그리고 React의 JSX.md",
-    "함수선언문, 화살표 함수 차이.md",
-    "images/Pasted image 20230213075414.png",
-    "함수도 객체다.md",
-    "03. this.md",
-    "01. 데이터 타입.md"
+    "모두의 네트워크/7장 응용 계층 (OSI 7계층).md",
+    "모두의 네트워크/8장 네트워크의 전체 흐름 살펴보기.md",
+    "모두의 네트워크/6장 전송 계층 (OSI 4계층).md",
+    "모두의 네트워크/5장 네트워크 계층 (OSI 3계층).md",
+    "무제 파일.md",
+    "모두의 네트워크/2장 네트워크의 기본 규칙.md",
+    "모두의 네트워크/1장 네트워크 첫걸음.md"
   ]
 }
