@@ -4,83 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9ad675e20bbc9ef2",
+        "id": "e3df7ab954a92f4a",
         "type": "tabs",
         "children": [
           {
-            "id": "cfd6322f01aa0fc8",
+            "id": "96dc9c1312033f6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리액트 공식문서/Adding Interactivity/Responding to Events.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "39b18670f8d2c26b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "리액트 공식문서/Adding Interactivity/State - A Component's Memory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce4b9d16c42e431f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "리액트 공식문서/Adding Interactivity/Render and Commit.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "18e6137da3278336",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "리액트 공식문서/Adding Interactivity/State as a Snapshot.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53f3a342054fceab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "리액트 공식문서/Adding Interactivity/Queueing a Series of State Updates.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3130daf56632d96d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "리액트 공식문서/Adding Interactivity/Render and Commit.md",
+                "file": "리액트 공식문서/Adding Interactivity/05 Queueing a Series of State Updates.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,12 +64,20 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "f7ea3a4b0f3a7f8e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 432.5
   },
   "right": {
     "id": "14cb23837bdaaee3",
@@ -146,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "리액트 공식문서/Adding Interactivity/Render and Commit.md",
+                "file": "리액트 공식문서/Adding Interactivity/05 Queueing a Series of State Updates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "리액트 공식문서/Adding Interactivity/Render and Commit.md",
+                "file": "리액트 공식문서/Adding Interactivity/05 Queueing a Series of State Updates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "리액트 공식문서/Adding Interactivity/Render and Commit.md"
+                "file": "리액트 공식문서/Adding Interactivity/05 Queueing a Series of State Updates.md"
               }
             }
           }
@@ -208,31 +155,38 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3130daf56632d96d",
+  "active": "96dc9c1312033f6b",
   "lastOpenFiles": [
-    "리액트 공식문서/Adding Interactivity/Queueing a Series of State Updates.md",
-    "리액트 공식문서/Adding Interactivity/Updating Objects in State.md",
-    "리액트 공식문서/Adding Interactivity/State as a Snapshot.md",
-    "리액트 공식문서/Adding Interactivity/Render and Commit.md",
-    "리액트 공식문서/Adding Interactivity/State - A Component's Memory.md",
-    "리액트 공식문서/Adding Interactivity/Responding to Events.md",
-    "리액트 공식문서/Adding Interactivity",
+    "리액트 공식문서/Adding Interactivity/06 Updating Objects in State.md",
+    "리액트 공식문서/Adding Interactivity/04 State as a Snapshot.md",
+    "리액트 공식문서/Adding Interactivity/02 State - A Component's Memory.md",
     "REST API가 갖춰야 할 조건에 대하여.md",
+    "2023-05-24.md",
+    "Pasted image 20230318123708 1.png",
+    "Pasted image 20230318123708.png",
+    "Pasted image 20230318124638.png",
+    "코어 자바스크립트/images/Pasted image 20230225132056.png",
+    "코어 자바스크립트/함수선언문, 화살표 함수 차이.md",
+    "코어 자바스크립트/02. 실행 컨텍스트.md",
+    "쿠키와 세션, 그리고 쿠키의 옵션들에 대하여.md",
+    "무제 파일.canvas",
     "CORS와 SOP.md",
+    "무제 파일.md",
+    "리액트 공식문서/Adding Interactivity/05 Queueing a Series of State Updates.md",
+    "리액트 공식문서/Adding Interactivity/03 Render and Commit.md",
+    "무제 폴더",
+    "코어 자바스크립트/data.js",
+    "리액트 공식문서/Adding Interactivity/01 Responding to Events.md",
+    "리액트 공식문서/Adding Interactivity",
     "Pasted image 20230320004928.png",
     "Pasted image 20230320004607.png",
-    "쿠키와 세션, 그리고 쿠키의 옵션들에 대하여.md",
     "모두의 네트워크/8장 네트워크의 전체 흐름 살펴보기.md",
     "Pasted image 20230318131049.png",
     "Pasted image 20230318130759.png",
     "Pasted image 20230318125944.png",
-    "Pasted image 20230318124638.png",
     "Pasted image 20230318123850.png",
-    "Pasted image 20230318123708.png",
-    "Pasted image 20230318123708 1.png",
     "모두의 네트워크/1장 네트워크 첫걸음.md",
     "모두의 네트워크/5장 네트워크 계층 (OSI 3계층).md",
-    "Pasted image 20230318131508.png",
     "모두의 네트워크/7장 응용 계층 (OSI 7계층).md",
     "모두의 네트워크/6장 전송 계층 (OSI 4계층).md",
     "모두의 네트워크/2장 네트워크의 기본 규칙.md"
