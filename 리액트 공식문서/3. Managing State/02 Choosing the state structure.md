@@ -1,3 +1,5 @@
+> state를 잘 구조화하는 방법
+
 ### Principles for structuring state
 
 가능한 한 심플하게 만들어야 한다!

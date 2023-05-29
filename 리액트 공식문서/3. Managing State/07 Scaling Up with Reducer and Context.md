@@ -1,3 +1,5 @@
+> 앱이 성장함에 따라 state 관리를 확장하는 방법
+
 > Reducer를 사용하면 컴포넌트 state 업데이트 로직을 통합할 수 있다. Context를 사용하면 다른 컴포넌트들에 정보를 전달할 수 있다. Reducer와 context를 함께 사용하여 복잡한 화면의 state를 관리할 수 있다.
 
 ## Reducer와 context 결합하기
