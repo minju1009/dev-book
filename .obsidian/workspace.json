@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리액트 공식문서/Adding Interactivity/05 Queueing a Series of State Updates.md",
+                "file": "리액트 공식문서/면접 예상 질문/예상질문 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b652730a6007b3a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "리액트 공식문서/3. Managing State/06 context로 데이터 깊숙이 전달하기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f3966934b515dd41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "리액트 공식문서/4. Escape Hatches/02 Manipulating the Dom with Refs.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "리액트 공식문서/Adding Interactivity/05 Queueing a Series of State Updates.md",
+                "file": "리액트 공식문서/면접 예상 질문/예상질문 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "리액트 공식문서/Adding Interactivity/05 Queueing a Series of State Updates.md",
+                "file": "리액트 공식문서/면접 예상 질문/예상질문 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "리액트 공식문서/Adding Interactivity/05 Queueing a Series of State Updates.md"
+                "file": "리액트 공식문서/면접 예상 질문/예상질문 1.md"
               }
             }
           }
@@ -157,38 +181,51 @@
   },
   "active": "96dc9c1312033f6b",
   "lastOpenFiles": [
-    "리액트 공식문서/Adding Interactivity/06 Updating Objects in State.md",
-    "리액트 공식문서/Adding Interactivity/04 State as a Snapshot.md",
-    "리액트 공식문서/Adding Interactivity/02 State - A Component's Memory.md",
+    "리액트 공식문서/3. Managing State/03 Sharing State Between Components.md",
+    "리액트 공식문서/4. Escape Hatches/02 Manipulating the Dom with Refs.md",
+    "리액트 공식문서/면접 예상 질문/예상질문 1.md",
+    "리액트 공식문서/3. Managing State/07 Scaling Up with Reducer and Context.md",
+    "리액트 공식문서/3. Managing State/06 context로 데이터 깊숙이 전달하기.md",
+    "리액트 공식문서/3. Managing State/05 Extracting State Logic into a Reducer.md",
+    "리액트 공식문서/3. Managing State/04 Preserving and Resetting State.md",
+    "리액트 공식문서/3. Managing State/02 Choosing the state structure.md",
+    "리액트 공식문서/3. Managing State/01 Reacting to Input with State.md",
+    "리액트 공식문서/4. Escape Hatches/01 Referencing Values with Refs.md",
+    "리액트 공식문서/4. Escape Hatches/05 Lifecycle of Reactive Effects.md",
+    "리액트 공식문서/4. Escape Hatches/04 You Might Not Need an Effect.md",
+    "리액트 공식문서/4. Escape Hatches/03 Synchronizing with Effects.md",
+    "리액트 공식문서/4. Escape Hatches/이 챕터에서 다룰 내용.md",
+    "리액트 공식문서/2. Adding Interactivity/01 Responding to Events.md",
+    "리액트 공식문서/사진/Pasted image 20230529032530.png",
+    "리액트 공식문서/4. Escape Hatches",
+    "리액트 공식문서/사진/Pasted image 20230529022000.png",
+    "리액트 공식문서/사진/Pasted image 20230529024251.png",
+    "리액트 공식문서/사진/Pasted image 20230529024242.png",
+    "리액트 공식문서/사진/Pasted image 20230529022526.png",
+    "리액트 공식문서/사진/Pasted image 20230529022358.png",
+    "리액트 공식문서/사진/Pasted image 20230529015511.png",
+    "리액트 공식문서/사진",
+    "리액트 공식문서/사진/Pasted image 20230529020628.png",
+    "리액트 공식문서/면접 예상 질문",
+    "리액트 공식문서/2. Adding Interactivity/05 Queueing a Series of State Updates.md",
+    "리액트 공식문서/3. Managing State/Choosing the state structure",
+    "리액트 공식문서/3. Managing State/01 Reacting to Input with State",
+    "리액트 공식문서/3. Managing State",
+    "CORS와 SOP.md",
+    "리액트 공식문서/2. Adding Interactivity/06 Updating Objects in State.md",
+    "리액트 공식문서/2. Adding Interactivity/04 State as a Snapshot.md",
+    "리액트 공식문서/2. Adding Interactivity/02 State - A Component's Memory.md",
     "REST API가 갖춰야 할 조건에 대하여.md",
     "2023-05-24.md",
     "Pasted image 20230318123708 1.png",
     "Pasted image 20230318123708.png",
-    "Pasted image 20230318124638.png",
-    "코어 자바스크립트/images/Pasted image 20230225132056.png",
     "코어 자바스크립트/함수선언문, 화살표 함수 차이.md",
     "코어 자바스크립트/02. 실행 컨텍스트.md",
     "쿠키와 세션, 그리고 쿠키의 옵션들에 대하여.md",
     "무제 파일.canvas",
-    "CORS와 SOP.md",
-    "무제 파일.md",
-    "리액트 공식문서/Adding Interactivity/05 Queueing a Series of State Updates.md",
-    "리액트 공식문서/Adding Interactivity/03 Render and Commit.md",
+    "리액트 공식문서/2. Adding Interactivity/03 Render and Commit.md",
     "무제 폴더",
     "코어 자바스크립트/data.js",
-    "리액트 공식문서/Adding Interactivity/01 Responding to Events.md",
-    "리액트 공식문서/Adding Interactivity",
-    "Pasted image 20230320004928.png",
-    "Pasted image 20230320004607.png",
-    "모두의 네트워크/8장 네트워크의 전체 흐름 살펴보기.md",
-    "Pasted image 20230318131049.png",
-    "Pasted image 20230318130759.png",
-    "Pasted image 20230318125944.png",
-    "Pasted image 20230318123850.png",
-    "모두의 네트워크/1장 네트워크 첫걸음.md",
-    "모두의 네트워크/5장 네트워크 계층 (OSI 3계층).md",
-    "모두의 네트워크/7장 응용 계층 (OSI 7계층).md",
-    "모두의 네트워크/6장 전송 계층 (OSI 4계층).md",
-    "모두의 네트워크/2장 네트워크의 기본 규칙.md"
+    "리액트 공식문서/2. Adding Interactivity"
   ]
 }
