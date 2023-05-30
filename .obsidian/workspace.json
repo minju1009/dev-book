@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리액트 공식문서/면접 예상 질문/예상질문 1.md",
+                "file": "리액트 공식문서/면접 예상 질문/면접 예상질문 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "리액트 공식문서/면접 예상 질문/예상질문 1.md",
+                "file": "리액트 공식문서/면접 예상 질문/면접 예상질문 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "리액트 공식문서/면접 예상 질문/예상질문 1.md",
+                "file": "리액트 공식문서/면접 예상 질문/면접 예상질문 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "리액트 공식문서/면접 예상 질문/예상질문 1.md"
+                "file": "리액트 공식문서/면접 예상 질문/면접 예상질문 정리.md"
               }
             }
           }
@@ -170,19 +170,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "96dc9c1312033f6b",
   "lastOpenFiles": [
+    "리액트 공식문서/2. Adding Interactivity/03 Render and Commit.md",
+    "리액트 공식문서/면접 예상 질문/면접 예상질문 정리.md",
     "리액트 공식문서/3. Managing State/03 Sharing State Between Components.md",
     "리액트 공식문서/4. Escape Hatches/02 Manipulating the Dom with Refs.md",
-    "리액트 공식문서/면접 예상 질문/예상질문 1.md",
     "리액트 공식문서/3. Managing State/07 Scaling Up with Reducer and Context.md",
     "리액트 공식문서/3. Managing State/06 context로 데이터 깊숙이 전달하기.md",
     "리액트 공식문서/3. Managing State/05 Extracting State Logic into a Reducer.md",
@@ -222,7 +224,6 @@
     "코어 자바스크립트/02. 실행 컨텍스트.md",
     "쿠키와 세션, 그리고 쿠키의 옵션들에 대하여.md",
     "무제 파일.canvas",
-    "리액트 공식문서/2. Adding Interactivity/03 Render and Commit.md",
     "무제 폴더",
     "코어 자바스크립트/data.js",
     "리액트 공식문서/2. Adding Interactivity"
