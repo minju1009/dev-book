@@ -13,9 +13,49 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리액트 공식문서/클래스 컴포넌트/02 Error Boundary.md",
+                "file": "리액트 공식문서/면접 예상 질문/면접 예상질문 정리.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "f11734e4d7382c72",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.5"
+              }
+            }
+          },
+          {
+            "id": "a5d1df893a18f5dd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
+          },
+          {
+            "id": "ae8878c429411473",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
+          },
+          {
+            "id": "ab96b0cffa32d420",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20230604203335.png"
               }
             }
           },
@@ -43,7 +83,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -117,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "리액트 공식문서/클래스 컴포넌트/02 Error Boundary.md",
+                "file": "Pasted image 20230604203335.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "리액트 공식문서/클래스 컴포넌트/02 Error Boundary.md",
+                "file": "Pasted image 20230604203335.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "리액트 공식문서/클래스 컴포넌트/02 Error Boundary.md"
+                "file": "Pasted image 20230604203335.png"
               }
             }
           }
@@ -179,15 +220,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "96dc9c1312033f6b",
+  "active": "ab96b0cffa32d420",
   "lastOpenFiles": [
-    "리액트 공식문서/클래스 컴포넌트/01 클래스 컴포넌트 기본.md",
+    "리액트 공식문서/1. Describing UI/07 Rendering Lists.md",
+    "20230819 - 한동 개발자 모임.md",
+    "리액트 공식문서/1. Describing UI/08 Keeping Components Pure.md",
+    "리액트 공식문서/1. Describing UI/06 Conditional Rendering.md",
+    "리액트 공식문서/1. Describing UI/05 Passing Props to a Component.md",
+    "리액트 공식문서/1. Describing UI/04 JavaScript in JSX with Curly Braces.md",
+    "리액트 공식문서/1. Describing UI/03 Writing Markup with JSX.md",
+    "리액트 공식문서/1. Describing UI/02 Importing and Exporting Components.md",
+    "리액트 공식문서/2. Adding Interactivity/03 Render and Commit.md",
+    "리액트 공식문서/2. Adding Interactivity/01 Responding to Events.md",
+    "리액트 공식문서/1. Describing UI/01 Your First Component.md",
+    "리액트 공식문서/2. Adding Interactivity/02 State - A Component's Memory.md",
+    "리액트 공식문서/1. Describing UI",
     "리액트 공식문서/클래스 컴포넌트/02 Error Boundary.md",
     "리액트 공식문서/클래스 컴포넌트/03 클래스 컴포넌트의 라이프 사이클(17버전 이전).md",
-    "Pasted image 20230604203335.png",
     "리액트 공식문서/면접 예상 질문/면접 예상질문 정리.md",
+    "리액트 공식문서/클래스 컴포넌트/01 클래스 컴포넌트 기본.md",
+    "Pasted image 20230604203335.png",
     "리액트 공식문서/클래스 컴포넌트",
-    "리액트 공식문서/2. Adding Interactivity/03 Render and Commit.md",
     "리액트 공식문서/3. Managing State/03 Sharing State Between Components.md",
     "리액트 공식문서/4. Escape Hatches/02 Manipulating the Dom with Refs.md",
     "리액트 공식문서/3. Managing State/07 Scaling Up with Reducer and Context.md",
@@ -198,10 +251,6 @@
     "리액트 공식문서/3. Managing State/01 Reacting to Input with State.md",
     "리액트 공식문서/4. Escape Hatches/01 Referencing Values with Refs.md",
     "리액트 공식문서/4. Escape Hatches/05 Lifecycle of Reactive Effects.md",
-    "리액트 공식문서/4. Escape Hatches/04 You Might Not Need an Effect.md",
-    "리액트 공식문서/4. Escape Hatches/03 Synchronizing with Effects.md",
-    "리액트 공식문서/4. Escape Hatches/이 챕터에서 다룰 내용.md",
-    "리액트 공식문서/2. Adding Interactivity/01 Responding to Events.md",
     "리액트 공식문서/사진/Pasted image 20230529032530.png",
     "리액트 공식문서/4. Escape Hatches",
     "리액트 공식문서/사진/Pasted image 20230529022000.png",
@@ -213,20 +262,12 @@
     "리액트 공식문서/사진",
     "리액트 공식문서/사진/Pasted image 20230529020628.png",
     "리액트 공식문서/면접 예상 질문",
-    "리액트 공식문서/2. Adding Interactivity/05 Queueing a Series of State Updates.md",
     "리액트 공식문서/3. Managing State/Choosing the state structure",
     "리액트 공식문서/3. Managing State/01 Reacting to Input with State",
     "리액트 공식문서/3. Managing State",
-    "CORS와 SOP.md",
-    "리액트 공식문서/2. Adding Interactivity/06 Updating Objects in State.md",
-    "리액트 공식문서/2. Adding Interactivity/04 State as a Snapshot.md",
-    "리액트 공식문서/2. Adding Interactivity/02 State - A Component's Memory.md",
-    "REST API가 갖춰야 할 조건에 대하여.md",
-    "2023-05-24.md",
     "Pasted image 20230318123708 1.png",
     "무제 파일.canvas",
     "무제 폴더",
-    "코어 자바스크립트/data.js",
-    "리액트 공식문서/2. Adding Interactivity"
+    "코어 자바스크립트/data.js"
   ]
 }
