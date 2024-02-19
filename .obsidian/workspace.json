@@ -53,9 +53,11 @@
             "id": "ab96b0cffa32d420",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20230604203335.png"
+                "file": "리액트 공식문서/2. Adding Interactivity/07 배열 state 업데이트.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -142,7 +144,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 432.5
+    "width": 200
   },
   "right": {
     "id": "14cb23837bdaaee3",
@@ -158,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20230604203335.png",
+                "file": "리액트 공식문서/2. Adding Interactivity/07 배열 state 업데이트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20230604203335.png",
+                "file": "리액트 공식문서/2. Adding Interactivity/07 배열 state 업데이트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20230604203335.png"
+                "file": "리액트 공식문서/2. Adding Interactivity/07 배열 state 업데이트.md"
               }
             }
           }
@@ -222,6 +224,14 @@
   },
   "active": "ab96b0cffa32d420",
   "lastOpenFiles": [
+    "리액트 공식문서/2. Adding Interactivity/06 Updating Objects in State.md",
+    "리액트 공식문서/2. Adding Interactivity/07 배열 state 업데이트.md",
+    "리액트 공식문서/2. Adding Interactivity/05 Queueing a Series of State Updates.md",
+    "Pasted image 20230604203335.png",
+    "리액트 공식문서/2. Adding Interactivity/04 State as a Snapshot.md",
+    "리액트 공식문서/2. Adding Interactivity/03 Render and Commit.md",
+    "리액트 공식문서/2. Adding Interactivity/02 State - A Component's Memory.md",
+    "리액트 공식문서/2. Adding Interactivity/01 Responding to Events.md",
     "리액트 공식문서/1. Describing UI/07 Rendering Lists.md",
     "20230819 - 한동 개발자 모임.md",
     "리액트 공식문서/1. Describing UI/08 Keeping Components Pure.md",
@@ -230,16 +240,12 @@
     "리액트 공식문서/1. Describing UI/04 JavaScript in JSX with Curly Braces.md",
     "리액트 공식문서/1. Describing UI/03 Writing Markup with JSX.md",
     "리액트 공식문서/1. Describing UI/02 Importing and Exporting Components.md",
-    "리액트 공식문서/2. Adding Interactivity/03 Render and Commit.md",
-    "리액트 공식문서/2. Adding Interactivity/01 Responding to Events.md",
     "리액트 공식문서/1. Describing UI/01 Your First Component.md",
-    "리액트 공식문서/2. Adding Interactivity/02 State - A Component's Memory.md",
     "리액트 공식문서/1. Describing UI",
     "리액트 공식문서/클래스 컴포넌트/02 Error Boundary.md",
     "리액트 공식문서/클래스 컴포넌트/03 클래스 컴포넌트의 라이프 사이클(17버전 이전).md",
     "리액트 공식문서/면접 예상 질문/면접 예상질문 정리.md",
     "리액트 공식문서/클래스 컴포넌트/01 클래스 컴포넌트 기본.md",
-    "Pasted image 20230604203335.png",
     "리액트 공식문서/클래스 컴포넌트",
     "리액트 공식문서/3. Managing State/03 Sharing State Between Components.md",
     "리액트 공식문서/4. Escape Hatches/02 Manipulating the Dom with Refs.md",
@@ -247,10 +253,6 @@
     "리액트 공식문서/3. Managing State/06 context로 데이터 깊숙이 전달하기.md",
     "리액트 공식문서/3. Managing State/05 Extracting State Logic into a Reducer.md",
     "리액트 공식문서/3. Managing State/04 Preserving and Resetting State.md",
-    "리액트 공식문서/3. Managing State/02 Choosing the state structure.md",
-    "리액트 공식문서/3. Managing State/01 Reacting to Input with State.md",
-    "리액트 공식문서/4. Escape Hatches/01 Referencing Values with Refs.md",
-    "리액트 공식문서/4. Escape Hatches/05 Lifecycle of Reactive Effects.md",
     "리액트 공식문서/사진/Pasted image 20230529032530.png",
     "리액트 공식문서/4. Escape Hatches",
     "리액트 공식문서/사진/Pasted image 20230529022000.png",
