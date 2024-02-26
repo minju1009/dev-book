@@ -83,7 +83,7 @@ return (
 }
 ```
 
-이는 React에게 이 Section 안에 있는 컴포넌트가 LevelContext를 요청하면 이 leel을 제공하라고 지시한다. 컴포넌트는 그 위에 있는 UI 트리에서 가장 가까운 `LevelContext.Provider`의 값을 사용한다.
+이는 React에게 이 Section 안에 있는 컴포넌트가 LevelContext를 요청하면 이 level을 제공하라고 지시한다. 컴포넌트는 그 위에 있는 UI 트리에서 가장 가까운 `LevelContext.Provider`의 값을 사용한다.
 
 아래처럼 작성하면 level값을 초기값으로부터 +1한 값으로 받아온다. 
 

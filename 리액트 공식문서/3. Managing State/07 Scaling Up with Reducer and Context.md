@@ -54,7 +54,7 @@ export default function TaskApp(){
 		</TasksContext.Provider>	
 ```
 
-State와 state를 관리하는 useReducer는 여전히 최상위 컴포넌트인 TaskBoard에 있으나 tasks와 dispatch는 하위 트리 커포넌트 어디서나 context를 불러와서 사용할 수 있다.
+State와 state를 관리하는 useReducer는 여전히 최상위 컴포넌트인 TaskBoard에 있으나 tasks와 dispatch는 하위 트리 컴포넌트 어디서나 context를 불러와서 사용할 수 있다.
 
 ## 하나의 파일로 합치기
 reducer와 context를 모두 하나의 파일에 작성하면 컴포넌트들을 조금 더 정리할 수 있다. Reducer를 같은 파일로 옮기고 TasksProvider 컴포넌트를 새로 선언하여 이 컴포넌트를 통해 모든 것을 하나로 묶으면 좋다.

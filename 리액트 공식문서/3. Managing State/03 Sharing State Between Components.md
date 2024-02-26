@@ -2,6 +2,8 @@
 
 > 두 컴포넌트의 state가 항상 함께 변경되기를 원한다면, 각각의 컴포넌트에서 state를 제거하고 가장 가까운 공통 부모로 이동한 다음 props를 통해 전달하면 된다. 이를 `state 끌어올리기`라고 한다.
 
+- How to share state between components by lifting it up
+- What are controlled and uncontrolled components
 ## 예제로 알아보는 state 끌어올리기
 ```js
 function Panel({ title, children }) {
@@ -86,6 +88,7 @@ onShow={() => setActiveIndex(1)}
 ## 제어 및 비제어 컴포넌트
 ### 비제어 컴포넌트(uncontrolled components)
 - 일부 로컬 state를 가진 컴포넌트를 '비제어 컴포넌트'라고 부른다. 
+- 위 예시에서 맨 첫번째 상태, 즉 각각의 컴포넌트가 isActive라는 state를 가지고 있던 버전에 대해 비제어 컴포넌트라고 부른다.
 - 비제어 컴포넌트는 설정이나 구성이 덜 필요하기 때문에 상위 컴포넌트 내에서 사용하기가 쉬우나, 함께 통합하려는 경우 유연성이 떨어진다.
 
 ### 제어 컴포넌트(controlled components)
@@ -109,4 +112,3 @@ state
 - 조건 경합 :  어떤 처리가 병렬로 일어나거나 동시에 일어날 떄 데이터까 꼬이는 현상, 자바스크립트에서는 비동기 할 때 주로 많이 사용된다. 
 - Suspense
 - useMemo란? 값을 캐싱하는 것, 연산비용이 높을 때 재연산을 하지 않아도 되니깐 
-- 

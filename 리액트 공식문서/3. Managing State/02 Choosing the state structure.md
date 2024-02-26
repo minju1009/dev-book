@@ -1,16 +1,19 @@
 > state를 잘 구조화하는 방법
 
+- When to use a single vs multiple state variables
+- What to avoid when organizing state
+- How to fix common issues with the state structure
 ### Principles for structuring state
 
 가능한 한 심플하게 만들어야 한다!
 
 다음 다섯가지 원칙을 고려해 보면 좋다.
 
->1. **Group related state.** If you always update two or more state variables at the same time, consider merging them into a single state variable.
-2. **Avoid contradictions in state.** When the state is structured in a way that several pieces of state may contradict and “disagree” with each other, you leave room for mistakes. Try to avoid this.
-3. **Avoid redundant state.** If you can calculate some information from the component’s props or its existing state variables during rendering, you should not put that information into that component’s state.
-4. **Avoid duplication in state.** When the same data is duplicated between multiple state variables, or within nested objects, it is difficult to keep them in sync. Reduce duplication when you can.
-5. **Avoid deeply nested state.** Deeply hierarchical state is not very convenient to update. When possible, prefer to structure state in a flat way.
+>1. **Group related state.** (관련 스테이트를 그룹화하라) If you always update two or more state variables at the same time, consider merging them into a single state variable.
+2. **Avoid contradictions in state.** (state의 모순을 피하라) When the state is structured in a way that several pieces of state may contradict and “disagree” with each other, you leave room for mistakes. Try to avoid this.
+3. **Avoid redundant state.** (불필요한 스테이트를 피하라)If you can calculate some information from the component’s props or its existing state variables during rendering, you should not put that information into that component’s state.
+4. **Avoid duplication in state.** (state 중복을 피하라) When the same data is duplicated between multiple state variables, or within nested objects, it is difficult to keep them in sync. Reduce duplication when you can.
+5. **Avoid deeply nested state.** (깊게 중첩된 state는 피하라) Deeply hierarchical state is not very convenient to update. When possible, prefer to structure state in a flat way.
 
 
 ### Group related state

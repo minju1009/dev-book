@@ -2,6 +2,10 @@
 
 > State는 컴포넌트 간에 격리(isolated)된다. React는 UI 트리에서 어떤 컴포넌트가 어떤 state에 속하는지를 추적한다. 사용자는 state를 언제 보존하고 언제 초기화할지를 제어할 수 있다.
 
+- React가 컴포넌트 구조를 “보는” 방법
+- React가 state를 유지하거나 재설정하도록 선택할 때
+- React가 컴포넌트의 state를 재설정하도록 강제하는 방법
+- key와 type이 state 보존 여부에 영향을 미치는 방법
 ## UI 트리
 DOM이나 CSSOM처럼 React또한 트리 구조를 사용하여 사용자가 만든 UI를 관리하고 모델링한다. React는 JSX로부터 UI트리를 만든다. 그 다음 React DOM은 해당 UI트리와 일치하도록 브라우저 DOM 엘리먼트를 업데이트 한다.
 
