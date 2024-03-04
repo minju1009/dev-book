@@ -6,6 +6,8 @@
 - 컴포넌트가 있을 수 있는 다양한 시각적 state를 열거하는 방법
 - 코드에서 다른 시각적 state 간의 변경을 촉발하는 방법
 
+https://ui.dev/imperative-vs-declarative-programming
+
 ## 선언형 UI와 명령형 UI의 차이점
 자동차를 타고 가는 사람 옆에서 어디로 가야하는지 차례대로 알려주는 상상을 해보자.
 
