@@ -309,3 +309,92 @@ useEffect(() => {
 기본적으로 Effect에서 반응형 값을 읽을 때에는 이를 의존성으로 추가해야 한다. 이렇게 하면 Effect가 해당 값의 모든 변경에 '반응'하도록 할 수 있기 때문이다.
 
 **그러나 때로는 Effect에 '반응'하지 않고도 Effect에서 최신 props와 state를 읽고 싶을 때가 있다.** 예를 들어, 페이지 방문 시마다 장바구니에 있는 품목의 수를 기록한다고 가정해 보자.
+```jsx
+function Page({url, shoppingCart}){
+	useEffect(() => {
+		logvisit(url, shoppingCart.length);
+	}, [url, shoppingCart])
+}
+```
+url이 변경될 때마다 새 페이지 방문을 기록하되 shoppingCart만 변경되는 경우는 기록하지 않으려면 어떻게 해야 하나 ? 반응성 규칙을 위반하지 않으면서 shoppingCart를 의존성에서 제외할 수는 없다. 그러나 코드가 Effect 내부에서 호출되더라도 변경 사항에 '반응'하지 않도록 표현할 수 있다. `useEffectEvent`훅을 활용하여 Effect Event를 선언하고 shoppingCart를 읽는 코드를 그 안으로 이동시킨다.
+
+```jsx
+function Page({url, shoppingCart}){
+	const onVisit = useEffectEvent(visitedUrl => {
+		logVisit(visitedUrl, shoppingCart.length)
+		});
+
+	useEffect(() => {
+		onVisit(url);
+	}, [url])
+}
+```
+
+**Effect Event는 반응형이 아니므로 항상 Effect의 의존성에 제외해야 한다.** 이를 통해 반응형이 아닌 코드를 그 안에 넣을 수 있다. 예를 들면, `onVisit`내부에서 `shoppingCart`를 읽으면 `shoppingCart`가 Effect를 다시 실행하지 않도록 할 수 있다. 
+
+### 서버와 클라이언트에 서로 다른 콘텐츠 표시하기
+서버 렌더링을 사용하는 앱의 경우, 컴포넌트는 두 가지 다른 환경에서 렌더링된다. 서버에서는 초기 HTML을 생성하기 위해 렌더링된다. 클라이언트에서 React는 렌더링 코드를 다시 실행하여 이벤트 핸들러를 해당 HTML에 붙일 수 있도록 한다. 그렇기 때문에 hydration이 작동하려면 클라이언트와 서버의 첫 렌더링 결과가 동일해야 한다. 
+
+드물지만 클라이언트에 다른 콘텐츠를 표시해야 하는 경우가 있다. 예를 들어, 앱이 `localStorage`에서 일부 데이터를 읽는 경우 서버에서는 이를 수행할 수 없다. 일반적으로 이를 구현하는 방법은 아래와 같다.
+```jsx
+function MyComponent(){
+	const [didMount, setDidMount] = useState(false);
+
+	useEffect(() => {
+		setDidMount(true);
+	})
+
+	if(didMount){
+		// ...return client-only JSX ...
+	} else {
+		// ... return initial JSX ...
+	}
+}
+```
+
+이렇게 할 수는 있지만 이 패턴의 사용을 되도록 아끼는게 좋다. 연결 속도가 느린 사용자는 초기 컨텐츠를 꽤 오랜 시간 동안 보게 되므로, 컴포넌트 모양이 갑작스럽게 변경되는걸 원하지 않을 것이다. 
+
+# **Troubleshooting**
+### 컴포넌트가 마운트될 때 내 Effect가 두 번 실행됩니다
+- Stirct Mode가 켜져 있으면, 개발환경에서 React는 실제 셋업 전에 셋업 및 클린업을 한 번 더 실행한다.
+- 개발환경에서는 셋업 -> 클린업 -> 셋업 순서로 실행되어 스트레스 체크를 한다는 것을 잊지 말자.
+
+### 내 Effect는 리렌더링할 때마다 실행됩니다.
+- 의존성 배열을 잊은 건 아닌지 확인해보자
+- 의존성 배열을 콘솔에 찍은 다음, 브라우저 콘솔을 이용해 전역 변수로 저장하고, Object.is로 비교해보면 두 배열의 의존성이 동일한지 확인할 수 있다.
+
+![[Pasted image 20240307115203.png]]
+- 다시 렌더링할 때마다 다른 의존성을 발견하면 일반적으로 다음 방법 중 하나로 해결할 수 있다.
+	- Effect 이전 state를 기반으로 state 업데이트하기
+	- 불필요한 함수, 객체 의존성 제거하기
+	- Effect에서 최신 props 및 state 읽기
+- 만약 위 방법들로 해결되지 않는다면, 최후의 수단으로 `useMemo` 혹은 함수의 경우 `useCallack`으로 감싸라.
+
+### 내 Effect가 무한히 재실행됩니다
+이런 경우 다음 두 가지가 모두 참임을 의미한다.
+- Effect가 일부 state를 업데이트 하고 있다.
+- 이 state는 리렌더링을 일으키며, 이로부터 Effect의  의존성이 변경된다.
+
+문제 해결 전에 먼저, Effect가 외부 시스템에 연결되어 있는지 확인해보자. Effect에 state를 설정해야 하는 이유가 무엇인가? 특정 state를 외부 시스템과 동기화하나? 아니면 애플리케이션의 데이터 흐름을 관리하려고 하나?
+- 외부 시스템이 없는 경우 Effect를 완전히 제거하면 로직이 단순화되는지 고려해보자.
+- 외부 시스템에 실제로 동기화 하는 경우 Effect가 state를 업데이트해야 하는 이유와 조건에 대해 생각해 보자. 렌더링에 사용되지 않는 일부 데이터를 추적해야 하는 경우, 리렌더링을 촉발하지 않는 ref가 더 적합할 수 있다. Effect가 필요 이상으로 state를 업데이트하지 않는지 확인할 필요가 있다.
+
+마지막으로, Effect가 적시에 state를 업데이트하고 있지만 여전히 루프가 발생한다면,  해당 state 업데이트로 인해 Effect의 의존성 중 하나가 변경되기 때문일 것이다.
+
+### 컴포넌트가 마운트 해제되지 않았는데도 클린업 로직이 실행됩니다.
+클린업 기능은 마운트 해제시 뿐만 아니라 변경된 의존성과 함께 다시 렌더링하기 전에 매번 실행된다. 
+클린업 코드는 있는데 그에 대응하는 셋업 코드는 없다면, 일반적으로 문제가 있는 코드이다.
+
+```jsx
+useEffect(() => {
+
+	return () => {
+		doSomething();
+	}
+}, [])
+```
+클린업 로직은 셋업 로직과 '대칭'이어야 하며, 셋업이 수행한 모든 작업을 중지하거나 취소해야 한다.
+
+### 내 Effect가 시각적인 작업을 수행하는데, 실행되기 전에 깜박거립니다
+Effect로 인해 브라우저가 화면을 그리는 것을 차단해야 하는 경우, useEffect를 `useLayoutEffect`로 바꿔라. 대부분의 Effect에는 이 기능이 필요하지 않다. 오직 브라우저 페인팅 전에 Effect를 실행하는 것이 중요한 경우에만 필요할 것이다. (예: 사용자가 보기 전에 툴팁의 위치를 미리 측정하고 배치하고자 할 때)
+
