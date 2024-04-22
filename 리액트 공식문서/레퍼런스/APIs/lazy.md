@@ -64,7 +64,7 @@ const MarkdownPreview = lazy(() => import('./MarkdownPreview.js'));
 }
 ```
 
-대신 늘 최상위에서많 호출해야 한다.
+대신 늘 최상위에서만 호출해야 한다.
 ```jsx
 import { lazy } from 'react';  
 
