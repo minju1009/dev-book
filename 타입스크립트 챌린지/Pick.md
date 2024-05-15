@@ -66,3 +66,41 @@ console.log(user[0]) // "Violet"
 console.log(user['0']) // "Violet"
 
 ```
+
+### [`in` operator narrowing](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#the-in-operator-narrowing)
+
+객체나 그 프로토타입 체인에 그 이름을 가진 프로퍼티가 있는지 확인할 수 있는 연산자이다.
+타입스크립트에서 이 연산자를 사용하여 사용가능한 타입을 좁히는데 사용할 수 있다.
+
+예를 들어, `"value" in x` 라는 코드가 있을 때, `true`인 상황에서는 optional 혹은 required인 key를 반환하며, `false`인 상황에서는 optional혹은 x에 없는 프로퍼티를 반환하는 경우가 된다.
+
+```tsx
+type Fish = { swim : () => void };
+type Bird = { fly: () => void };
+
+function move(animal: Fish | Bird){
+	if ("swim" in animal) {
+		return animal.swim(); // 이걸 리턴하지 않으면 아래 animal.fly에서 타입스크립트 오류가 난다.
+	}
+
+	return animal.fly()
+}
+```
+
+optional은 narrowing할 때 둘 다에 속한다는 것을 다시한번 짚고 넘어갈 필요가 있다.
+```tsx
+type Fish = { swim : () => void };
+type Bird = { fly: () => void };
+type Human = { swim? : () => void, fly? : () => void}
+
+  
+function move(animal: Fish | Bird | Human){
+	if ("swim" in animal) {
+	return animal
+	// animal : Fish | Human
+}
+
+	return animal
+	// animal : Bird | Human
+}
+```
