@@ -47,9 +47,11 @@
             "id": "d87aa91701186a5b",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.11"
+                "file": "클린코드 리액트 강의/Section 6 - Hooks.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -76,9 +78,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "57469b320e1c9ff1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "클린코드 리액트 강의/Section 3 - Props.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -120,7 +134,19 @@
             "id": "355c20cb9be19432",
             "type": "leaf",
             "state": {
-              "type": "starred",
+              "type": "markdown",
+              "state": {
+                "file": "클린코드 리액트 강의/Section 3 - Props.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "74c3734a7d8df30a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -128,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 200
   },
   "right": {
     "id": "14cb23837bdaaee3",
@@ -144,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "클린코드 리액트 강의/Section 3 - Props.md",
+                "file": "클린코드 리액트 강의/Section 6 - Hooks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "클린코드 리액트 강의/Section 3 - Props.md",
+                "file": "클린코드 리액트 강의/Section 6 - Hooks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "클린코드 리액트 강의/Section 3 - Props.md"
+                "file": "클린코드 리액트 강의/Section 6 - Hooks.md"
               }
             }
           }
@@ -206,11 +232,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c14220a785511545",
+  "active": "d87aa91701186a5b",
   "lastOpenFiles": [
-    "클린코드 리액트 강의/Section 2 - State.md",
+    "클린코드 리액트 강의/Section 4 - Components.md",
+    "클린코드 리액트 강의/Section 5 - Rendering.md",
+    "클린코드 리액트 강의/Section 6 - Hooks.md",
+    "리액트 공식문서/면접 예상 질문/면접 예상질문 정리.md",
     "클린코드 리액트 강의/Section 3 - Props.md",
     "무제 파일.md",
+    "클린코드 리액트 강의/Section 2 - State.md",
     "클린코드 리액트 강의",
     "Pasted image 20230604203335.png",
     "리액트 공식문서/레퍼런스/Effect Hooks/useLayoutEffect.md",
@@ -235,7 +265,6 @@
     "리액트 공식문서/4. Escape Hatches/04 You Might Not Need an Effect.md",
     "리액트 공식문서/4. Escape Hatches/02 Manipulating the Dom with Refs.md",
     "리액트 공식문서/4. Escape Hatches/01 Referencing Values with Refs.md",
-    "리액트 공식문서/면접 예상 질문/면접 예상질문 정리.md",
     "리액트 공식문서/4. Escape Hatches/03 Synchronizing with Effects.md",
     "리액트 공식문서/4. Escape Hatches/07 Effect의 의존성 제거하기.md",
     "리액트 공식문서/3. Managing State/04 Preserving and Resetting State.md",
@@ -243,9 +272,6 @@
     "리액트 공식문서/3. Managing State/01 Reacting to Input with State.md",
     "리액트 공식문서/3. Managing State/02 Choosing the state structure.md",
     "리액트 공식문서/3. Managing State/05 Extracting State Logic into a Reducer.md",
-    "리액트 공식문서/3. Managing State/07 Scaling Up with Reducer and Context.md",
-    "리액트 공식문서/3. Managing State/06 context로 데이터 깊숙이 전달하기.md",
-    "리액트 공식문서/2. Adding Interactivity/02 State - A Component's Memory.md",
     "리액트 공식문서/1. Describing UI",
     "리액트 공식문서/클래스 컴포넌트",
     "리액트 공식문서/사진/Pasted image 20230529032530.png",
