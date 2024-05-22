@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "타입스크립트 챌린지/Pick.md",
+                "file": "타입스크립트 챌린지/Readonly.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "타입스크립트 챌린지/Pick.md",
+                "file": "타입스크립트 챌린지/Readonly.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "타입스크립트 챌린지/Pick.md",
+                "file": "타입스크립트 챌린지/Readonly.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "타입스크립트 챌린지/Pick.md"
+                "file": "타입스크립트 챌린지/Readonly.md"
               }
             }
           }
@@ -234,15 +234,20 @@
   },
   "active": "d87aa91701186a5b",
   "lastOpenFiles": [
-    "Pasted image 20240515195649.png",
-    "클린코드 리액트 강의/Section 6 - Hooks.md",
+    "attachment/Pasted image 20240522224813.png",
+    "무제 파일.md",
+    "타입스크립트 챌린지/Readonly.md",
+    "attachment",
     "타입스크립트 챌린지/Pick.md",
+    "Pasted image 20240515195649.png",
+    "Pasted image 20240522224532.png",
+    "Pasted image 20240522224547.png",
+    "클린코드 리액트 강의/Section 6 - Hooks.md",
     "타입스크립트 챌린지",
     "클린코드 리액트 강의/Section 4 - Components.md",
     "클린코드 리액트 강의/Section 5 - Rendering.md",
     "리액트 공식문서/면접 예상 질문/면접 예상질문 정리.md",
     "클린코드 리액트 강의/Section 3 - Props.md",
-    "무제 파일.md",
     "클린코드 리액트 강의/Section 2 - State.md",
     "클린코드 리액트 강의",
     "Pasted image 20230604203335.png",
@@ -272,14 +277,9 @@
     "리액트 공식문서/4. Escape Hatches/07 Effect의 의존성 제거하기.md",
     "리액트 공식문서/3. Managing State/04 Preserving and Resetting State.md",
     "리액트 공식문서/3. Managing State/03 Sharing State Between Components.md",
-    "리액트 공식문서/3. Managing State/01 Reacting to Input with State.md",
     "리액트 공식문서/1. Describing UI",
     "리액트 공식문서/클래스 컴포넌트",
-    "리액트 공식문서/사진/Pasted image 20230529032530.png",
     "리액트 공식문서/4. Escape Hatches",
-    "리액트 공식문서/사진/Pasted image 20230529022000.png",
-    "리액트 공식문서/사진/Pasted image 20230529024251.png",
-    "리액트 공식문서/사진",
     "무제 파일.canvas"
   ]
 }
