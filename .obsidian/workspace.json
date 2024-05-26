@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "타입스크립트 챌린지/Readonly.md",
+                "file": "타입스크립트 챌린지/07 Exclude.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "타입스크립트 챌린지/Readonly.md",
+                "file": "타입스크립트 챌린지/07 Exclude.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "타입스크립트 챌린지/Readonly.md",
+                "file": "타입스크립트 챌린지/07 Exclude.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "타입스크립트 챌린지/Readonly.md"
+                "file": "타입스크립트 챌린지/07 Exclude.md"
               }
             }
           }
@@ -234,11 +234,17 @@
   },
   "active": "d87aa91701186a5b",
   "lastOpenFiles": [
+    "타입스크립트 챌린지/08.md",
+    "타입스크립트 챌린지/07 Exclude.md",
+    "타입스크립트 챌린지/01 Pick.md",
+    "타입스크립트 챌린지/06 Length of Tuple.md",
+    "타입스크립트 챌린지/05 First of Array.md",
+    "타입스크립트 챌린지/04 Deep Readonly.md",
+    "타입스크립트 챌린지/03 Tuple to Object.md",
+    "타입스크립트 챌린지/02 Readonly.md",
     "attachment/Pasted image 20240522224813.png",
     "무제 파일.md",
-    "타입스크립트 챌린지/Readonly.md",
     "attachment",
-    "타입스크립트 챌린지/Pick.md",
     "Pasted image 20240515195649.png",
     "Pasted image 20240522224532.png",
     "Pasted image 20240522224547.png",
@@ -268,15 +274,9 @@
     "Pasted image 20240311162232.png",
     "Pasted image 20240311151327.png",
     "Pasted image 20240307115203.png",
-    "Pasted image 20240306135632.png",
     "리액트 공식문서/4. Escape Hatches/05 Lifecycle of Reactive Effects.md",
     "리액트 공식문서/4. Escape Hatches/04 You Might Not Need an Effect.md",
     "리액트 공식문서/4. Escape Hatches/02 Manipulating the Dom with Refs.md",
-    "리액트 공식문서/4. Escape Hatches/01 Referencing Values with Refs.md",
-    "리액트 공식문서/4. Escape Hatches/03 Synchronizing with Effects.md",
-    "리액트 공식문서/4. Escape Hatches/07 Effect의 의존성 제거하기.md",
-    "리액트 공식문서/3. Managing State/04 Preserving and Resetting State.md",
-    "리액트 공식문서/3. Managing State/03 Sharing State Between Components.md",
     "리액트 공식문서/1. Describing UI",
     "리액트 공식문서/클래스 컴포넌트",
     "리액트 공식문서/4. Escape Hatches",
