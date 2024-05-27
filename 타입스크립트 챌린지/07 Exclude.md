@@ -1,4 +1,4 @@
-```tsx
+   ```tsx
 type Result = MyExclude<'a' | 'b' | 'c', 'a'> // 'b' | 'c'
 
 // 내 답!
@@ -7,7 +7,7 @@ type MyExclude<T, U> = T extends U? never : T;
 
 만약 U라는 값이 T안에 있다면 아무것도 반환하지 않도록 제외하고, U라는 값이 없는 T만 반환한다!
 
-### Distributive Contional Types
+### Distributive Conditional Types
 https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#distributive-conditional-types
 
 When conditional types act on a generic type, they become _distributive_ when given a union type. For example, take the following:
