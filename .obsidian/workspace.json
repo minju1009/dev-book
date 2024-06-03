@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "타입스크립트 챌린지/10 Concat.md",
+                "file": "Total Typescript 강의/Solving Typescript Errors/10 Fixing \"Could Not Find A Declaration File\".md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "타입스크립트 챌린지/10 Concat.md",
+                "file": "Total Typescript 강의/Solving Typescript Errors/10 Fixing \"Could Not Find A Declaration File\".md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "타입스크립트 챌린지/10 Concat.md",
+                "file": "Total Typescript 강의/Solving Typescript Errors/10 Fixing \"Could Not Find A Declaration File\".md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "타입스크립트 챌린지/10 Concat.md"
+                "file": "Total Typescript 강의/Solving Typescript Errors/10 Fixing \"Could Not Find A Declaration File\".md"
               }
             }
           }
@@ -234,6 +234,18 @@
   },
   "active": "d87aa91701186a5b",
   "lastOpenFiles": [
+    "attachment/Pasted image 20240603222243.png",
+    "Total Typescript 강의/Solving Typescript Errors/09 Fixing \"Cannot Redeclare Block-Scoped Variable\".md",
+    "Total Typescript 강의/Solving Typescript Errors/10 Fixing \"Could Not Find A Declaration File\".md",
+    "Total Typescript 강의/Solving Typescript Errors/08 Fixing \"Conversion Of Type X May Be A Mistake\".md",
+    "Total Typescript 강의/Solving Typescript Errors/07 Fixing \"Property X Has No Initializer\".md",
+    "attachment/Pasted image 20240603220315.png",
+    "Total Typescript 강의/Solving Typescript Errors/02 Fixing \"Property Does Not Exist On Type\".md",
+    "Total Typescript 강의/Solving Typescript Errors/01 Fixing \"X is Not Assignable To Y\".md",
+    "Total Typescript 강의/Solving Typescript Errors/05 Fixing \"X is Of Type Unknown\".md",
+    "Total Typescript 강의/Solving Typescript Errors/06 Fixing \"Expression Can't Be Used To Index Type X\".md",
+    "Total Typescript 강의/Solving Typescript Errors/04 Fixing \"Types Of Property Are Incompatible\".md",
+    "Total Typescript 강의/Solving Typescript Errors/03 Fixing \"X is Possibly Null Or Undefined\".md",
     "타입스크립트 챌린지/09 If.md",
     "타입스크립트 챌린지/10 Concat.md",
     "타입스크립트 챌린지/08 Awaited.md",
@@ -244,12 +256,6 @@
     "타입스크립트 챌린지/03 Tuple to Object.md",
     "타입스크립트 챌린지/02 Readonly.md",
     "타입스크립트 챌린지/01 Pick.md",
-    "Total Typescript 강의/Solving Typescript Errors/Fixing \"Expression Can't Be Used To Index Type X\".md",
-    "Total Typescript 강의/Solving Typescript Errors/Fixing \"Property Does Not Exist On Type\".md",
-    "Total Typescript 강의/Solving Typescript Errors/Fixing \"Types Of Property Are Incompatible\".md",
-    "Total Typescript 강의/Solving Typescript Errors/Fixing \"X is Not Assignable To Y\".md",
-    "Total Typescript 강의/Solving Typescript Errors/Fixing \"X is Of Type Unknown\".md",
-    "Total Typescript 강의/Solving Typescript Errors/Fixing \"X is Possibly Null Or Undefined\".md",
     "프론트엔드 성능 최적화 가이드/성능 최적화는 왜 필요할까?.md",
     "attachment/Pasted image 20240527214023.png",
     "Total Typescript 강의/Solving Typescript Errors",
@@ -264,13 +270,8 @@
     "클린코드 리액트 강의/Section 6 - Hooks.md",
     "타입스크립트 챌린지",
     "클린코드 리액트 강의/Section 4 - Components.md",
-    "클린코드 리액트 강의/Section 5 - Rendering.md",
-    "리액트 공식문서/면접 예상 질문/면접 예상질문 정리.md",
-    "클린코드 리액트 강의/Section 3 - Props.md",
-    "클린코드 리액트 강의/Section 2 - State.md",
     "클린코드 리액트 강의",
     "Pasted image 20230604203335.png",
-    "리액트 공식문서/레퍼런스/Effect Hooks/useLayoutEffect.md",
     "프론트엔드 성능 최적화 가이드",
     "리액트 공식문서/레퍼런스/Effect Hooks",
     "리액트 공식문서/레퍼런스/APIs",
@@ -278,7 +279,6 @@
     "Pasted image 20240311162259.png",
     "Pasted image 20240311162235.png",
     "Pasted image 20240311162232.png",
-    "Pasted image 20240311151327.png",
     "리액트 공식문서/1. Describing UI",
     "무제 파일.canvas"
   ]
