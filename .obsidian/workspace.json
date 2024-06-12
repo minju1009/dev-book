@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "5dd33dfd819f10e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "타입스크립트 챌린지/13 Unshift.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9f93c2b31e1b2770",
             "type": "leaf",
             "state": {
@@ -92,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -170,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Total Typescript 강의/Solving Typescript Errors/10 Fixing \"Could Not Find A Declaration File\".md",
+                "file": "타입스크립트 챌린지/13 Unshift.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Total Typescript 강의/Solving Typescript Errors/10 Fixing \"Could Not Find A Declaration File\".md",
+                "file": "타입스크립트 챌린지/13 Unshift.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Total Typescript 강의/Solving Typescript Errors/10 Fixing \"Could Not Find A Declaration File\".md"
+                "file": "타입스크립트 챌린지/13 Unshift.md"
               }
             }
           }
@@ -232,24 +244,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d87aa91701186a5b",
+  "active": "5dd33dfd819f10e5",
   "lastOpenFiles": [
-    "attachment/Pasted image 20240603222243.png",
-    "Total Typescript 강의/Solving Typescript Errors/09 Fixing \"Cannot Redeclare Block-Scoped Variable\".md",
+    "타입스크립트 챌린지/12 Push.md",
+    "타입스크립트 챌린지/13 Unshift.md",
+    "타입스크립트 챌린지/11 Includes.md",
+    "타입스크립트 챌린지/10 Concat.md",
+    "타입스크립트 챌린지/07 Exclude.md",
+    "타입스크립트 챌린지/08 Awaited.md",
+    "타입스크립트 챌린지/09 If.md",
     "Total Typescript 강의/Solving Typescript Errors/10 Fixing \"Could Not Find A Declaration File\".md",
+    "Total Typescript 강의/Solving Typescript Errors/09 Fixing \"Cannot Redeclare Block-Scoped Variable\".md",
     "Total Typescript 강의/Solving Typescript Errors/08 Fixing \"Conversion Of Type X May Be A Mistake\".md",
     "Total Typescript 강의/Solving Typescript Errors/07 Fixing \"Property X Has No Initializer\".md",
+    "Total Typescript 강의/Solving Typescript Errors/06 Fixing \"Expression Can't Be Used To Index Type X\".md",
+    "attachment/Pasted image 20240603222243.png",
     "attachment/Pasted image 20240603220315.png",
     "Total Typescript 강의/Solving Typescript Errors/02 Fixing \"Property Does Not Exist On Type\".md",
     "Total Typescript 강의/Solving Typescript Errors/01 Fixing \"X is Not Assignable To Y\".md",
     "Total Typescript 강의/Solving Typescript Errors/05 Fixing \"X is Of Type Unknown\".md",
-    "Total Typescript 강의/Solving Typescript Errors/06 Fixing \"Expression Can't Be Used To Index Type X\".md",
     "Total Typescript 강의/Solving Typescript Errors/04 Fixing \"Types Of Property Are Incompatible\".md",
     "Total Typescript 강의/Solving Typescript Errors/03 Fixing \"X is Possibly Null Or Undefined\".md",
-    "타입스크립트 챌린지/09 If.md",
-    "타입스크립트 챌린지/10 Concat.md",
-    "타입스크립트 챌린지/08 Awaited.md",
-    "타입스크립트 챌린지/07 Exclude.md",
     "타입스크립트 챌린지/06 Length of Tuple.md",
     "타입스크립트 챌린지/05 First of Array.md",
     "타입스크립트 챌린지/04 Deep Readonly.md",
@@ -267,9 +282,7 @@
     "Pasted image 20240515195649.png",
     "Pasted image 20240522224532.png",
     "Pasted image 20240522224547.png",
-    "클린코드 리액트 강의/Section 6 - Hooks.md",
     "타입스크립트 챌린지",
-    "클린코드 리액트 강의/Section 4 - Components.md",
     "클린코드 리액트 강의",
     "Pasted image 20230604203335.png",
     "프론트엔드 성능 최적화 가이드",
@@ -278,7 +291,6 @@
     "리액트 공식문서/레퍼런스",
     "Pasted image 20240311162259.png",
     "Pasted image 20240311162235.png",
-    "Pasted image 20240311162232.png",
     "리액트 공식문서/1. Describing UI",
     "무제 파일.canvas"
   ]
