@@ -32,3 +32,4 @@ type Includes<T extends readonly any[], U> = {
     - 그렇지 않으면 `false`가 됩니다.
 
 결국, `Includes` 타입은 주어진 요소 `U`가 배열 `T`에 포함되어 있는지를 `true` 또는 `false`로 나타내는 타입입니다.
+

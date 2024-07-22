@@ -4,107 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "e3df7ab954a92f4a",
+        "id": "92161cb5dddf51d6",
         "type": "tabs",
         "children": [
           {
-            "id": "96dc9c1312033f6b",
+            "id": "cd052054a8d6e0f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리액트 공식문서/면접 예상 질문/면접 예상질문 정리.md",
+                "file": "타입스크립트 챌린지/11 Includes.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f11734e4d7382c72",
+            "id": "d98b944691de40e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리액트 공식문서/3. Managing State/05 Extracting State Logic into a Reducer.md",
+                "file": "구성.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d2b856b95681a9b8",
+            "id": "80b612ca6d91bed4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "리액트 공식문서/레퍼런스/APIs/lazy.md",
+                "file": "구성.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d87aa91701186a5b",
+            "id": "8b760e0320cb8695",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Total Typescript 강의/Solving Typescript Errors/10 Fixing \"Could Not Find A Declaration File\".md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5dd33dfd819f10e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "타입스크립트 챌린지/13 Unshift.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9f93c2b31e1b2770",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "무제 파일.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c14220a785511545",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "클린코드 리액트 강의/Section 3 - Props.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "57469b320e1c9ff1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "클린코드 리액트 강의/Section 3 - Props.md",
+                "file": "React 까보기 시리즈/03 React 구성요소인 reconciler, renderer등의 내부 패키지 & fiber, rendering 등의 용어 정의.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -166,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "14cb23837bdaaee3",
@@ -182,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "타입스크립트 챌린지/13 Unshift.md",
+                "file": "React 까보기 시리즈/03 React 구성요소인 reconciler, renderer등의 내부 패키지 & fiber, rendering 등의 용어 정의.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "타입스크립트 챌린지/13 Unshift.md",
+                "file": "React 까보기 시리즈/03 React 구성요소인 reconciler, renderer등의 내부 패키지 & fiber, rendering 등의 용어 정의.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "타입스크립트 챌린지/13 Unshift.md"
+                "file": "React 까보기 시리즈/03 React 구성요소인 reconciler, renderer등의 내부 패키지 & fiber, rendering 등의 용어 정의.md"
               }
             }
           }
@@ -244,19 +197,30 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5dd33dfd819f10e5",
+  "active": "8b760e0320cb8695",
   "lastOpenFiles": [
+    "React 까보기 시리즈/02  React Components, Elements, and Instances.md",
+    "React 까보기 시리즈/03 React 구성요소인 reconciler, renderer등의 내부 패키지 & fiber, rendering 등의 용어 정의.md",
+    "React 까보기 시리즈/01 React 까보기 시리즈 개요(feat. Fiber vs Stack).md",
+    "WbHtmlEditor.md",
+    "React 까보기 시리즈",
+    "구성.md",
+    "타입스크립트 챌린지/11 Includes.md",
+    "타입스크립트 챌린지/08 Awaited.md",
     "타입스크립트 챌린지/12 Push.md",
     "타입스크립트 챌린지/13 Unshift.md",
-    "타입스크립트 챌린지/11 Includes.md",
-    "타입스크립트 챌린지/10 Concat.md",
-    "타입스크립트 챌린지/07 Exclude.md",
-    "타입스크립트 챌린지/08 Awaited.md",
-    "타입스크립트 챌린지/09 If.md",
-    "Total Typescript 강의/Solving Typescript Errors/10 Fixing \"Could Not Find A Declaration File\".md",
-    "Total Typescript 강의/Solving Typescript Errors/09 Fixing \"Cannot Redeclare Block-Scoped Variable\".md",
-    "Total Typescript 강의/Solving Typescript Errors/08 Fixing \"Conversion Of Type X May Be A Mistake\".md",
     "Total Typescript 강의/Solving Typescript Errors/07 Fixing \"Property X Has No Initializer\".md",
+    "Total Typescript 강의/Solving Typescript Errors/08 Fixing \"Conversion Of Type X May Be A Mistake\".md",
+    "Total Typescript 강의/Solving Typescript Errors/09 Fixing \"Cannot Redeclare Block-Scoped Variable\".md",
+    "Total Typescript 강의/Solving Typescript Errors/10 Fixing \"Could Not Find A Declaration File\".md",
+    "타입스크립트 챌린지/10 Concat.md",
+    "클린코드 리액트 강의/Section 3 - Props.md",
+    "무제 파일.md",
+    "리액트 공식문서/면접 예상 질문/면접 예상질문 정리.md",
+    "리액트 공식문서/3. Managing State/05 Extracting State Logic into a Reducer.md",
+    "리액트 공식문서/레퍼런스/APIs/lazy.md",
+    "타입스크립트 챌린지/07 Exclude.md",
+    "타입스크립트 챌린지/09 If.md",
     "Total Typescript 강의/Solving Typescript Errors/06 Fixing \"Expression Can't Be Used To Index Type X\".md",
     "attachment/Pasted image 20240603222243.png",
     "attachment/Pasted image 20240603220315.png",
@@ -264,20 +228,10 @@
     "Total Typescript 강의/Solving Typescript Errors/01 Fixing \"X is Not Assignable To Y\".md",
     "Total Typescript 강의/Solving Typescript Errors/05 Fixing \"X is Of Type Unknown\".md",
     "Total Typescript 강의/Solving Typescript Errors/04 Fixing \"Types Of Property Are Incompatible\".md",
-    "Total Typescript 강의/Solving Typescript Errors/03 Fixing \"X is Possibly Null Or Undefined\".md",
-    "타입스크립트 챌린지/06 Length of Tuple.md",
-    "타입스크립트 챌린지/05 First of Array.md",
-    "타입스크립트 챌린지/04 Deep Readonly.md",
-    "타입스크립트 챌린지/03 Tuple to Object.md",
-    "타입스크립트 챌린지/02 Readonly.md",
-    "타입스크립트 챌린지/01 Pick.md",
-    "프론트엔드 성능 최적화 가이드/성능 최적화는 왜 필요할까?.md",
     "attachment/Pasted image 20240527214023.png",
     "Total Typescript 강의/Solving Typescript Errors",
     "Total Typescript 강의",
-    "타입스크립트 챌린지/08.md",
     "attachment/Pasted image 20240522224813.png",
-    "무제 파일.md",
     "attachment",
     "Pasted image 20240515195649.png",
     "Pasted image 20240522224532.png",
@@ -291,7 +245,6 @@
     "리액트 공식문서/레퍼런스",
     "Pasted image 20240311162259.png",
     "Pasted image 20240311162235.png",
-    "리액트 공식문서/1. Describing UI",
     "무제 파일.canvas"
   ]
 }
