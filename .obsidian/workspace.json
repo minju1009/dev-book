@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "17edaedb46e1626f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React 까보기 시리즈/09 리액트 입장에서는 어떤 이벤트를 먼저 처리해야할까? (expirationTime 값의 의미).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -107,7 +119,7 @@
             }
           },
           {
-            "id": "74c3734a7d8df30a",
+            "id": "c0899124632766f9",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -118,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "14cb23837bdaaee3",
@@ -135,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React 까보기 시리즈/03 React 구성요소인 reconciler, renderer등의 내부 패키지 & fiber, rendering 등의 용어 정의.md",
+                "file": "React 까보기 시리즈/09 리액트 입장에서는 어떤 이벤트를 먼저 처리해야할까? (expirationTime 값의 의미).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React 까보기 시리즈/03 React 구성요소인 reconciler, renderer등의 내부 패키지 & fiber, rendering 등의 용어 정의.md",
+                "file": "React 까보기 시리즈/09 리액트 입장에서는 어떤 이벤트를 먼저 처리해야할까? (expirationTime 값의 의미).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React 까보기 시리즈/03 React 구성요소인 reconciler, renderer등의 내부 패키지 & fiber, rendering 등의 용어 정의.md"
+                "file": "React 까보기 시리즈/09 리액트 입장에서는 어떤 이벤트를 먼저 처리해야할까? (expirationTime 값의 의미).md"
               }
             }
           }
@@ -197,10 +208,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8b760e0320cb8695",
+  "active": "17edaedb46e1626f",
   "lastOpenFiles": [
-    "React 까보기 시리즈/02  React Components, Elements, and Instances.md",
+    "React 까보기 시리즈/10 리액트 16버전에서 대부분의 UPDATE를 처리하는 방법(feat.Sync).md",
+    "React 까보기 시리즈/09 리액트 입장에서는 어떤 이벤트를 먼저 처리해야할까? (expirationTime 값의 의미).md",
+    "React 까보기 시리즈/08 reconciler가 WORK를 스케줄링 하기 위한 사전작업.md",
+    "attachment/Pasted image 20240826214319.png",
+    "React 까보기 시리즈/07 hook 이 상태를 업데이트하는 과정 요약 & scheduler 개관.md",
+    "React 까보기 시리즈/06 renderWithHooks 함수? useState를 할당하는 과정 코드 까보기.md",
+    "React 까보기 시리즈/05 Hook은 어디서 오는 걸까?.md",
     "React 까보기 시리즈/03 React 구성요소인 reconciler, renderer등의 내부 패키지 & fiber, rendering 등의 용어 정의.md",
+    "React 까보기 시리즈/02  React Components, Elements, and Instances.md",
     "React 까보기 시리즈/01 React 까보기 시리즈 개요(feat. Fiber vs Stack).md",
     "WbHtmlEditor.md",
     "React 까보기 시리즈",
@@ -220,14 +238,8 @@
     "리액트 공식문서/3. Managing State/05 Extracting State Logic into a Reducer.md",
     "리액트 공식문서/레퍼런스/APIs/lazy.md",
     "타입스크립트 챌린지/07 Exclude.md",
-    "타입스크립트 챌린지/09 If.md",
-    "Total Typescript 강의/Solving Typescript Errors/06 Fixing \"Expression Can't Be Used To Index Type X\".md",
     "attachment/Pasted image 20240603222243.png",
     "attachment/Pasted image 20240603220315.png",
-    "Total Typescript 강의/Solving Typescript Errors/02 Fixing \"Property Does Not Exist On Type\".md",
-    "Total Typescript 강의/Solving Typescript Errors/01 Fixing \"X is Not Assignable To Y\".md",
-    "Total Typescript 강의/Solving Typescript Errors/05 Fixing \"X is Of Type Unknown\".md",
-    "Total Typescript 강의/Solving Typescript Errors/04 Fixing \"Types Of Property Are Incompatible\".md",
     "attachment/Pasted image 20240527214023.png",
     "Total Typescript 강의/Solving Typescript Errors",
     "Total Typescript 강의",
@@ -244,7 +256,6 @@
     "리액트 공식문서/레퍼런스/APIs",
     "리액트 공식문서/레퍼런스",
     "Pasted image 20240311162259.png",
-    "Pasted image 20240311162235.png",
     "무제 파일.canvas"
   ]
 }
