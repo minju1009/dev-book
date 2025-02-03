@@ -16,7 +16,9 @@
                 "file": "타입스크립트 챌린지/11 Includes.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "11 Includes"
             }
           },
           {
@@ -28,19 +30,9 @@
                 "file": "구성.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "80b612ca6d91bed4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "구성.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "구성"
             }
           },
           {
@@ -52,7 +44,9 @@
                 "file": "React 까보기 시리즈/03 React 구성요소인 reconciler, renderer등의 내부 패키지 & fiber, rendering 등의 용어 정의.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "03 React 구성요소인 reconciler, renderer등의 내부 패키지 & fiber, rendering 등의 용어 정의"
             }
           },
           {
@@ -61,14 +55,56 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React 까보기 시리즈/09 리액트 입장에서는 어떤 이벤트를 먼저 처리해야할까? (expirationTime 값의 의미).md",
+                "file": "React 까보기 시리즈/03 React 구성요소인 reconciler, renderer등의 내부 패키지 & fiber, rendering 등의 용어 정의.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "03 React 구성요소인 reconciler, renderer등의 내부 패키지 & fiber, rendering 등의 용어 정의"
+            }
+          },
+          {
+            "id": "a2b28f494c630df0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React 까보기 시리즈/13 Scheduler에서 다시 Reconciler 로!(Task 를 처리하여 WORK를 실행).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "13 Scheduler에서 다시 Reconciler 로!(Task 를 처리하여 WORK를 실행)"
+            }
+          },
+          {
+            "id": "5d2b9e7315ac0efd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React 까보기 시리즈/15 VDOM의 workInProgress tree를 생성하는 배경.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "15 VDOM의 workInProgress tree를 생성하는 배경"
+            }
+          },
+          {
+            "id": "fad8519a3be8961c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20230604203335.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20230604203335"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -88,7 +124,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
             }
           },
           {
@@ -103,7 +141,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "검색"
             }
           },
           {
@@ -115,7 +155,9 @@
                 "file": "클린코드 리액트 강의/Section 3 - Props.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Section 3 - Props"
             }
           },
           {
@@ -123,7 +165,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -146,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React 까보기 시리즈/09 리액트 입장에서는 어떤 이벤트를 먼저 처리해야할까? (expirationTime 값의 의미).md",
+                "file": "React 까보기 시리즈/13 Scheduler에서 다시 Reconciler 로!(Task 를 처리하여 WORK를 실행).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +198,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "13 Scheduler에서 다시 Reconciler 로!(Task 를 처리하여 WORK를 실행)의 백링크"
             }
           },
           {
@@ -163,10 +209,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React 까보기 시리즈/09 리액트 입장에서는 어떤 이벤트를 먼저 처리해야할까? (expirationTime 값의 의미).md",
+                "file": "React 까보기 시리즈/13 Scheduler에서 다시 Reconciler 로!(Task 를 처리하여 WORK를 실행).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "13 Scheduler에서 다시 Reconciler 로!(Task 를 처리하여 WORK를 실행)의 나가는 링크"
             }
           },
           {
@@ -177,7 +225,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -186,8 +236,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React 까보기 시리즈/09 리액트 입장에서는 어떤 이벤트를 먼저 처리해야할까? (expirationTime 값의 의미).md"
-              }
+                "file": "React 까보기 시리즈/13 Scheduler에서 다시 Reconciler 로!(Task 를 처리하여 WORK를 실행).md"
+              },
+              "icon": "lucide-list",
+              "title": "13 Scheduler에서 다시 Reconciler 로!(Task 를 처리하여 WORK를 실행) 개요"
             }
           }
         ]
@@ -208,21 +260,31 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "17edaedb46e1626f",
+  "active": "fad8519a3be8961c",
   "lastOpenFiles": [
-    "React 까보기 시리즈/10 리액트 16버전에서 대부분의 UPDATE를 처리하는 방법(feat.Sync).md",
-    "React 까보기 시리즈/09 리액트 입장에서는 어떤 이벤트를 먼저 처리해야할까? (expirationTime 값의 의미).md",
+    "구성.md",
+    "Pasted image 20230604203335.png",
+    "React 까보기 시리즈/무제 파일.md",
+    "React 까보기 시리즈/05 Reconciler - Render phase.md",
+    "React 까보기 시리즈/15 VDOM의 workInProgress tree를 생성하는 배경.md",
+    "React 까보기 시리즈/14 React element와 component 까보기.md",
+    "React 까보기 시리즈/03 React 구성요소인 reconciler, renderer등의 내부 패키지 & fiber, rendering 등의 용어 정의.md",
+    "React 까보기 시리즈/13 Scheduler에서 다시 Reconciler 로!(Task 를 처리하여 WORK를 실행).md",
+    "React 까보기 시리즈/02  React Components, Elements, and Instances.md",
+    "React 까보기 시리즈/11 Scheduler 시작! Task 까보기.md",
+    "React 까보기 시리즈/12 리액트가 Concurrent mode에서 업데이트를 수행하는 과정(Task 처리).md",
+    "attachment/Pasted image 20241002224618.png",
+    "attachment/Pasted image 20241002224204.png",
+    "React 까보기 시리즈/01 React 까보기 시리즈 개요(feat. Fiber vs Stack).md",
     "React 까보기 시리즈/08 reconciler가 WORK를 스케줄링 하기 위한 사전작업.md",
-    "attachment/Pasted image 20240826214319.png",
+    "React 까보기 시리즈/09 리액트 입장에서는 어떤 이벤트를 먼저 처리해야할까? (expirationTime 값의 의미).md",
     "React 까보기 시리즈/07 hook 이 상태를 업데이트하는 과정 요약 & scheduler 개관.md",
     "React 까보기 시리즈/06 renderWithHooks 함수? useState를 할당하는 과정 코드 까보기.md",
     "React 까보기 시리즈/05 Hook은 어디서 오는 걸까?.md",
-    "React 까보기 시리즈/03 React 구성요소인 reconciler, renderer등의 내부 패키지 & fiber, rendering 등의 용어 정의.md",
-    "React 까보기 시리즈/02  React Components, Elements, and Instances.md",
-    "React 까보기 시리즈/01 React 까보기 시리즈 개요(feat. Fiber vs Stack).md",
+    "React 까보기 시리즈/10 리액트 16버전에서 대부분의 UPDATE를 처리하는 방법(feat.Sync).md",
+    "attachment/Pasted image 20240826214319.png",
     "WbHtmlEditor.md",
     "React 까보기 시리즈",
-    "구성.md",
     "타입스크립트 챌린지/11 Includes.md",
     "타입스크립트 챌린지/08 Awaited.md",
     "타입스크립트 챌린지/12 Push.md",
@@ -230,14 +292,6 @@
     "Total Typescript 강의/Solving Typescript Errors/07 Fixing \"Property X Has No Initializer\".md",
     "Total Typescript 강의/Solving Typescript Errors/08 Fixing \"Conversion Of Type X May Be A Mistake\".md",
     "Total Typescript 강의/Solving Typescript Errors/09 Fixing \"Cannot Redeclare Block-Scoped Variable\".md",
-    "Total Typescript 강의/Solving Typescript Errors/10 Fixing \"Could Not Find A Declaration File\".md",
-    "타입스크립트 챌린지/10 Concat.md",
-    "클린코드 리액트 강의/Section 3 - Props.md",
-    "무제 파일.md",
-    "리액트 공식문서/면접 예상 질문/면접 예상질문 정리.md",
-    "리액트 공식문서/3. Managing State/05 Extracting State Logic into a Reducer.md",
-    "리액트 공식문서/레퍼런스/APIs/lazy.md",
-    "타입스크립트 챌린지/07 Exclude.md",
     "attachment/Pasted image 20240603222243.png",
     "attachment/Pasted image 20240603220315.png",
     "attachment/Pasted image 20240527214023.png",
@@ -247,15 +301,12 @@
     "attachment",
     "Pasted image 20240515195649.png",
     "Pasted image 20240522224532.png",
-    "Pasted image 20240522224547.png",
     "타입스크립트 챌린지",
     "클린코드 리액트 강의",
-    "Pasted image 20230604203335.png",
     "프론트엔드 성능 최적화 가이드",
     "리액트 공식문서/레퍼런스/Effect Hooks",
     "리액트 공식문서/레퍼런스/APIs",
     "리액트 공식문서/레퍼런스",
-    "Pasted image 20240311162259.png",
     "무제 파일.canvas"
   ]
 }
